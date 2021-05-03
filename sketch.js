@@ -46,10 +46,6 @@ function draw() {
 
   if (keyDown("f")) {
 	console.log("presses f key");
-	var vectorA = Matter.Vector.create(200,620)
-	var vectorB = Matter.Vector.create(50,50)
-
-
 	Matter.Body.applyForce(bobObject1.body, bobObject1.body.position, { x: 2000, y: 0 });
 }
 

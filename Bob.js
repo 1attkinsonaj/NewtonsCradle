@@ -2,7 +2,7 @@ class Bob {
    
     constructor(p_x,p_y, p_radius) {
       var options = {
-        'restitution':1.2,
+        'restitution':1.3,
         'friction':0,
         'density':6
       }
